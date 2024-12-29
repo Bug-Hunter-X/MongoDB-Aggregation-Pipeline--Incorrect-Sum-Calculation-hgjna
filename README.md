@@ -1,0 +1,2 @@
+# MongoDB Aggregation Pipeline Bug: Incorrect Sum Calculation
+This repository demonstrates a common error in MongoDB aggregation pipelines related to calculating sums using the `$group` operator.  The incorrect code uses `$sum` where `$inc` is required for properly accumulating values. The solution shows the correct implementation.
